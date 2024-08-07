@@ -41,7 +41,23 @@ This project is a Smart Cab Allocation System designed to efficiently manage cab
 
 3. Open the project in your preferred code editor.
 
-4. Open `index.html` in a web browser to start using the application.
+4. To run the project locally, you need to serve it using a local web server. If you have Python installed, you can use the following commands:
+
+    - For Python 3.x:
+
+        ```bash
+        python -m http.server 8000
+        ```
+
+    - For Python 2.x:
+
+        ```bash
+        python -m SimpleHTTPServer 8000
+        ```
+
+5. Open your web browser and navigate to `http://localhost:8000` to view the application.
+
+
 
 ## Usage
 
