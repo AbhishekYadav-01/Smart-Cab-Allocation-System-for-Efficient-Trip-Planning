@@ -83,4 +83,3 @@ This project is a Smart Cab Allocation System designed to efficiently manage cab
 - HTML5
 - CSS3
 - JavaScript (ES5, ES6)
-- Front-end libraries and frameworks
