@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Trip</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Book Trip</h2>
+    <form id="book-trip-form" class="form">
+      <input type="text" id="from-location" placeholder="Starting Location" required>
+      <input type="text" id="to-location" placeholder="Destination" required>
+      <input type="text" id="trip-time" placeholder="Time (HH:MM)" required>
+      <button type="submit">Book Trip</button>
+    </form>
+    <div id="trip-info"></div>
+  </div>
+  <script src="app.js"></script>
+  <script>
+    document.getElementById('book-trip-form').addEventListener('submit', (event) => {
+      event.preventDefault();
+      const from = document.getElementById('from-location').value;
+      const to = document.getElementById('to-location').value;
+      const time = document.getElementById('trip-time').value;
+      const result = bookTrip(from, to, time);
+      document.getElementById('trip-info').innerHTML = result;
+    });
+  </script>
+</body>
+</html>
