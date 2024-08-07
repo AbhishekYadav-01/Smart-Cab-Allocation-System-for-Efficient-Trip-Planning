@@ -49,12 +49,12 @@ This project is a Smart Cab Allocation System designed to efficiently manage cab
 
 1. **Admin Login:**
     - Username: `admin`
-    - Password: `password`
+    - Password: `p`
     - Admins can manage trips and view allocated cabs.
 
 2. **Employee Login:**
     - Username: `employee`
-    - Password: `password`
+    - Password: `p`
     - Employees can allocate cabs by providing their current location and destination.
 
 3. **Allocating Cabs:**
