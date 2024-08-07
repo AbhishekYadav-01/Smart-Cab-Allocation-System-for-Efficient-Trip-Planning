@@ -8,8 +8,6 @@ This project is a Smart Cab Allocation System designed to efficiently manage cab
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -50,12 +48,12 @@ This project is a Smart Cab Allocation System designed to efficiently manage cab
 1. **Admin Login:**
     - Username: `admin`
     - Password: `p`
-    - Admins can manage trips and view allocated cabs.
+    - Admins can manage trips and view booked/allocated cabs.
 
 2. **Employee Login:**
     - Username: `employee`
     - Password: `p`
-    - Employees can allocate cabs by providing their current location and destination.
+    - Employees can book cabs by providing their current location and destination.
 
 3. **Allocating Cabs:**
     - Employees can enter their current location and destination to allocate the nearest available cab.
@@ -70,17 +68,3 @@ This project is a Smart Cab Allocation System designed to efficiently manage cab
 - CSS3
 - JavaScript (ES5, ES6)
 - Front-end libraries and frameworks
-
-## Contributing
-
-Contributions are welcome! Please fork this repository and submit a pull request for any changes or improvements you would like to make.
-
-1. Fork the repository.
-2. Create a new branch: `git checkout -b my-feature-branch`.
-3. Make your changes and commit them: `git commit -m 'Add some feature'`.
-4. Push to the branch: `git push origin my-feature-branch`.
-5. Submit a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
