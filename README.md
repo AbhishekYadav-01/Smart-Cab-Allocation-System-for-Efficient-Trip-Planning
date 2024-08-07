@@ -1,6 +1,6 @@
 # Smart Cab Allocation System for Efficient Trip Planning
 
-This project is a Smart Cab Allocation System designed to efficiently manage cab trips, optimize cab allocation, and integrate real-time location data. The system includes functionalities for both admin and employee roles, allowing admins to manage trips and employees to allocate cabs for their needs.
+This project is a Smart Cab Allocation System designed to efficiently manage cab trips, optimize cab allocation, and integrate real-time location data. The system includes functionalities for both admin and employee roles, allowing admins to manage trips and employees to allocate cabs for their needs.Employee can book cab for instant trip as well as planned for any time in future's trips.
 
 ## Table of Contents
 
